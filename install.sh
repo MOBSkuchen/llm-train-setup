@@ -11,6 +11,3 @@ cd h2o-llmstudio-train-copy
 echo 'Installing dependencies'
 python3 -m pip install -r requirements.txt
 echo 'Done'
-echo 'Running training with config : config.yaml'
-python3 train_model.py
-echo 'Done'
